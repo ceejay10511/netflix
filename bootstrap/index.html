@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   <title>bootstrap</title>
+   <style>
+      section{
+         padding: 60px 0;
+      }
+   </style>
+</head>
+<body class="bg-dark">
+   
+<!--navbar-->
+<nav class="navbar">
+   <div class="container-xl">
+      <a href="#intro" class="navbar-brand">
+         <span class="fw-bold text-danger">
+            <img src="/images/netflix.PNG" alt="" width="30" height="24" class="d-inline-block align-text-top">
+            NETFLIX
+         </span>
+      </a>
+   <!--toggle-->
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active text-danger" aria-current="page" href="#pricing">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-danger" href="#movies" data-bs-target="#navbarnav">movies</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-danger" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                more
+              </a>
+              <ul class="dropdown-menu text-danger" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item text-danger" href="#how to download">help</a></li>
+                <li><a class="dropdown-item text-danger" href="#reviews" >reviews</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item text-danger" href="#contact">contact us</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled " href="#" tabindex="-1" aria-disabled="true"></a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success bg-danger text-light" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+   </div>
+</nav>
+
+<!--big image-->
+
+
+
+<!--intro-->
+<section id="intro">
+   <div class="container-lg">
+      <div class="row justify-content-center align-items-center">
+         <div class="col-md-5 text-center text-md-start">
+            <h1>
+               <p class="diplay-2 text-danger">NETFLIX</p>
+               <p class="dispplay-5 text-muted">the best site to download</p>
+            </h1>
+            <p class="lead my-4 text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, placeat?</p>
+            <a href="#pricing" class="btn btn-danger btn-lg">download</a>
+         </div>
+            <div class="col-md-5 text-center d-none d-md-block">
+               <img src="/images/netflix.PNG" alt="cover" class="img-fluid">
+            </div>
+      </div>
+   </div>
+</section>
+
+<!--movies-->
+<div class="container-lg mx-5 bg-dark">
+   <h2 class=" h4 text-center fw-bold">
+      <a href="#movies" id="movies" class="text-danger ">MOVIES</a>
+   </h2>
+   <p class="text-light text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. A quisquam, illo repellat inventore sed corporis hic, quidem placeat dolore harum, molestias incidunt doloremque quasi officiis ducimus qui recusandae exercitationem ratione..</p>
+
+   <div class="container-lg my-5">
+      <div class="row justify-content-center">
+         <div class="col-md-4">
+            <a href="download" class="btn"><img src="/images/player.jpg" alt="" width="300px" height="300" > </a>
+            
+            <p class="text-muted text-center text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet deserunt ad autem. <a href="see more" class="text=danger">read more</a></p>
+         </div>
+         <div class="col-md-4">
+            <a href="download" class="btn"> <img src="/images/cartoon.jpg" alt="" width="300px" height="300px"></a>
+           
+            <p class="text-muted text-center text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet deserunt ad autem. <a href="see more" class="text=danger">read more</a></p>
+         </div>
+         <div class="col-md-4">
+            <a href="download" class="btn"><img src="/images/film.jpg" alt="" width="300px" height="300px"></a>
+            
+            <p class="text-muted text-center text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet deserunt ad autem. <a href="see more" class="text=danger">read more</a></p>
+         </div>
+         <a href="#" class="btn btn-danger btn-sm m-1 p-1">see more</a>
+     </div>
+</div>
+
+</div>
+ 
+<!--help-->
+<div class="container-fluid">
+ <h2 class="h3 text-danger fw-bold"> <a href="#how to download" id="how to download" class="text-danger text-decoration-none">HOW TO DOWNLOAD</a>  </h2>
+   <p class="text-light fw-light">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero harum ex qui reprehenderit eaque expedita? Porro, rerum laudantium doloremque neque repellendus tempore quia nisi quas, ipsa quod nesciunt quam aspernatur quibusdam ad voluptates odio molestiae ducimus cum vitae. Officia quos necessitatibus quam corporis nihil officiis. Reprehenderit mollitia consequuntur praesentium excepturi? <a href="#">see more</a></p>
+   <p class="text-light fw-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam minus alias debitis unde, nulla sapiente explicabo deserunt tempora inventore dolore autem suscipit eius eum fugiat earum maxime praesentium culpa modi vitae nisi porro ut mollitia voluptate. Cumque, odit voluptatibus laboriosam vel quos facilis tempora. Facilis nisi fugit nemo eaque aspernatur inventore sunt? Vitae saepe minus architecto. Facere eum ipsum distinctio. Voluptatem officiis maxime quisquam molestias deserunt iste labore in maiores?</p>
+</div>
+
+<!--reviews-->
+<h2 class="h4 text-center">
+   <a href="#reviews" class="text-decoration-none text-danger text-bold text-center" id="reviews">REVIEWS</a>
+</h2>
+<div class="container-lg bg-secondary">
+  <div class="row justify-content-center align-items-center">
+   <div class="col-md-3 text-center">
+      <img src="/images/client.jpg" alt="">
+   </div>
+   <div class="col-md-5 text-right text-dark bg-secondary">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius esse beatae enim, incidunt commodi nemo fuga, voluptatibus minima assumenda sequi placeat ad provident autem. Quasi neque fugit illum distinctio obcaecati fugiat provident. Doloribus, deserunt in! Itaque dolores quos nemo impedit inventore, eos minus modi fugit, autem incidunt alias a aut?</p>
+   </div>
+   
+  </div>
+  
+   </div>
+
+<!--contact-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!-- info section -->
+
+ <section class="info_section bg-secondary my-4">
+   <div class="info_container layout_padding2">
+     <div class="container">
+       <div class="info_logo text-center my-3">
+         <a class="navbar-brand text-danger text-center fw-bold" href="index.html"> <span>NETFLIX</span> </a>
+       </div>
+       <div class="info_main">
+         <div class="row">
+           <div class="col-md-3 col-lg-2">
+             <div class="info_link-box">
+               <h5>
+                 Useful Link
+               </h5>
+               <ul>
+                 <li class=" active">
+                   <a class="text-danger text-decoration-none" href="#intro">Home <span class="sr-only">(current)</span></a>
+                 </li>
+                
+                 <li class="">
+                   <a class="text-danger text-decoration-none" href="#movies">movies </a>
+                 </li>
+                 <li class="">
+                   <a class=" text-danger text-decoration-none" href="#how to download"> help </a>
+                 </li>
+                 <li class="">
+                   <a class="text-danger text-decoration-none" href="contact.html"> Contact </a>
+                 </li>
+               </ul>
+             </div>
+           </div>
+           <div class="col-md-3 ">
+             <h5>
+               NETFLIX
+             </h5>
+             <p>
+               Lorem ipsum dolor sit amet, consectetur
+               adipiscinaliquaLoreadipiscing
+             </p>
+           </div>
+           <div class="col-md-3 mx-auto  ">
+             <h5>
+               social media
+             </h5>
+             <div class="social_box">
+               <a href="#">
+                 <i class="fa fa-facebook" aria-hidden="true"></i>
+               </a>
+               <a href="#">
+                 <i class="fa fa-twitter" aria-hidden="true"></i>
+               </a>
+               <a href="#">
+                 <i class="fa fa-linkedin" aria-hidden="true"></i>
+               </a>
+               <a href="#">
+                 <i class="fa fa-youtube-play" aria-hidden="true"></i>
+               </a>
+             </div>
+           </div>
+           <div class="col-md-3">
+             <h5>
+               Our help center
+             </h5>
+             <p>
+               Lorem ipsum dolor sit amet, consectetur
+               adipiscinaliquaLoreadipiscing
+             </p>
+           </div>
+         </div>
+       </div>
+       <div class="info_bottom">
+         <div class="row">
+           <div class="col-lg-9">
+             <div class="info_contact ">
+               <div class="row">
+                 <div class="col-md-3">
+                   <a href="#" class="link-box text-danger text-decoration-none">
+                     <i class="fa fa-map-marker" aria-hidden="true"></i>
+                     <span>
+                       Location
+                     </span>
+                   </a>
+                 </div>
+                 <div class="col-md-5">
+                   <a href="#" class="link-box text-danger text-decoration-none">
+                     <i class="fa fa-phone" aria-hidden="true"></i>
+                     <span>
+                       Call +2348059514165    
+                     </span>
+                   </a>
+                 </div>
+                 <div class="col-md-4">
+                   <a href="#" class="link-box text-danger text-decoration-none">
+                     <i class="fa fa-envelope" aria-hidden="true"></i>
+                     <span>
+                       demo@gmail.com
+                     </span>
+                   </a>
+                 </div>
+               </div>
+             </div>
+           </div>
+           <div class="col-md-3">
+             <div class="info_form ">
+               <form action="">
+                 <input type="email" placeholder="Enter Your Email" />
+                 <button>
+                   <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                 </button>
+               </form>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+ </section>
+
+
+
+
+
+
+
+
+
+
+
+<div class="container text-light">
+   <p>
+     &copy; <span id="displayYear"></span> All Rights Reserved By
+     <a href="https://html.design/" class="text-danger text-decoration-none">NETFLIX</a>
+   </p>
+ </div>
+
+
+
+
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
